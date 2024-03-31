@@ -1,0 +1,649 @@
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Mar 29 22:19:51 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+writing pidfile to uwsgi.pid
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Python main interpreter initialized at 0x5636e3db81c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5636e3db81c0 pid: 4595 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4595)
+spawned uWSGI worker 1 (pid: 4603, cores: 2)
+spawned uWSGI worker 2 (pid: 4604, cores: 2)
+spawned uWSGI worker 3 (pid: 4606, cores: 2)
+spawned uWSGI worker 4 (pid: 4608, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Mar 29 22:22:05 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+writing pidfile to uwsgi.pid
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Python main interpreter initialized at 0x55c858d3f1c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c858d3f1c0 pid: 4733 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4733)
+spawned uWSGI worker 1 (pid: 4743, cores: 2)
+spawned uWSGI worker 2 (pid: 4745, cores: 2)
+spawned uWSGI worker 3 (pid: 4747, cores: 2)
+spawned uWSGI worker 4 (pid: 4749, cores: 2)
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Mar 29 22:36:47 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+writing pidfile to uwsgi.pid
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Python main interpreter initialized at 0x56338a5dd240
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56338a5dd240 pid: 5343 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5343)
+spawned uWSGI worker 1 (pid: 5352, cores: 2)
+spawned uWSGI worker 2 (pid: 5354, cores: 2)
+spawned uWSGI worker 3 (pid: 5356, cores: 2)
+spawned uWSGI worker 4 (pid: 5358, cores: 2)
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Mar 29 22:37:03 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+writing pidfile to uwsgi.pid
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Mar 29 22:41:52 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+writing pidfile to uwsgi.pid
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Mar 29 22:41:58 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+writing pidfile to uwsgi.pid
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Mar 29 22:48:59 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+writing pidfile to uwsgi.pid
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.24 (64bit) on [Fri Mar 29 22:55:48 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+writing pidfile to uwsgi.pid
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.24 (64bit) on [Sat Mar 30 15:56:56 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+writing pidfile to uwsgi.pid
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Python main interpreter initialized at 0x561464e9a1c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x561464e9a1c0 pid: 7470 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7470)
+spawned uWSGI worker 1 (pid: 7479, cores: 2)
+spawned uWSGI worker 2 (pid: 7480, cores: 2)
+spawned uWSGI worker 3 (pid: 7483, cores: 2)
+spawned uWSGI worker 4 (pid: 7485, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 7485|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:57:55 2024] GET / => generated 322 bytes in 37 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7479|app: 0|req: 1/2] 127.0.0.1 () {48 vars in 740 bytes} [Sat Mar 30 07:57:55 2024] GET /favicon.ico => generated 322 bytes in 23 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7483|app: 0|req: 1/3] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:58:24 2024] GET / => generated 322 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7485|app: 0|req: 2/4] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:58:37 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7485|app: 0|req: 3/5] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:58:45 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7479|app: 0|req: 2/6] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:58:55 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7480|app: 0|req: 1/7] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:58:55 2024] GET / => generated 322 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7483|app: 0|req: 2/8] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:25 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7480|app: 0|req: 2/9] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:26 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7479|app: 0|req: 3/10] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:27 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7485|app: 0|req: 4/11] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:28 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7485|app: 0|req: 5/12] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:28 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7485|app: 0|req: 6/13] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:30 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7479|app: 0|req: 4/14] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:32 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7485|app: 0|req: 7/15] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:33 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7483|app: 0|req: 3/16] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:39 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7485|app: 0|req: 8/17] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:41 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7485|app: 0|req: 9/18] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:42 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7483|app: 0|req: 4/19] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:43 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7483|app: 0|req: 5/20] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:45 2024] GET / => generated 322 bytes in 0 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7485|app: 0|req: 10/21] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:45 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7485|app: 0|req: 11/22] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:46 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7485|app: 0|req: 12/23] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:47 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7485|app: 0|req: 13/24] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:47 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7485|app: 0|req: 14/25] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:48 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7479|app: 0|req: 5/26] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:53 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7485|app: 0|req: 15/27] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 07:59:54 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7479|app: 0|req: 6/28] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:00:04 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7483|app: 0|req: 6/29] 127.0.0.1 () {48 vars in 740 bytes} [Sat Mar 30 08:00:04 2024] GET /favicon.ico => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7483|app: 0|req: 7/30] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:00:05 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7483|app: 0|req: 8/31] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:00:06 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7483|app: 0|req: 9/32] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:00:07 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7485|app: 0|req: 16/33] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:01:04 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7485|app: 0|req: 17/34] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:01:05 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7480|app: 0|req: 3/35] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:01:07 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7479|app: 0|req: 7/36] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:01:21 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7479|app: 0|req: 8/37] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:01:21 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7480|app: 0|req: 4/38] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:01:22 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7485|app: 0|req: 18/39] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:02:56 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7480|app: 0|req: 5/40] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:02:57 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7480|app: 0|req: 6/41] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:02:57 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 7480|app: 0|req: 7/42] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:02:58 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 7480|app: 0|req: 8/43] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:02:59 2024] GET / => generated 322 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 7480)...
+Gracefully killing worker 3 (pid: 7483)...
+Gracefully killing worker 4 (pid: 7485)...
+Gracefully killing worker 1 (pid: 7479)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/mengxiang/Desktop/Projects/test7
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.24 (64bit) on [Sat Mar 30 08:03:21 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Python main interpreter initialized at 0x559ae7846970
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x559ae7846970 pid: 7470 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 7470)
+spawned uWSGI worker 1 (pid: 7827, cores: 2)
+spawned uWSGI worker 2 (pid: 7828, cores: 2)
+spawned uWSGI worker 3 (pid: 7831, cores: 2)
+spawned uWSGI worker 4 (pid: 7833, cores: 2)
+[pid: 7831|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 797 bytes} [Sat Mar 30 08:03:24 2024] GET / => generated 398 bytes in 22 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.24 (64bit) on [Sat Mar 30 21:10:38 2024] ***
+compiled with version: 11.4.0 on 29 March 2024 03:17:31
+os: Linux-6.2.0-39-generic #40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2
+nodename: yan
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/mengxiang/Desktop/Projects/test7
+writing pidfile to uwsgi.pid
+detected binary path: /home/mengxiang/.virtualenvs/h8/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/mengxiang/Desktop/Projects/test7
+your processes number limit is 15187
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.131.128:8000 fd 3
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Python main interpreter initialized at 0x55eedd2742d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55eedd2742d0 pid: 10642 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10642)
+spawned uWSGI worker 1 (pid: 10646, cores: 2)
+spawned uWSGI worker 2 (pid: 10648, cores: 2)
+spawned uWSGI worker 3 (pid: 10650, cores: 2)
+spawned uWSGI worker 4 (pid: 10652, cores: 2)
+[pid: 10650|app: 0|req: 1/1] 192.168.131.128 () {42 vars in 691 bytes} [Sat Mar 30 13:10:47 2024] GET / => generated 382 bytes in 49 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 10650|app: 0|req: 2/2] 192.168.131.128 () {42 vars in 662 bytes} [Sat Mar 30 13:10:47 2024] GET /favicon.ico => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 10648|app: 0|req: 1/3] 192.168.131.128 () {42 vars in 691 bytes} [Sat Mar 30 13:10:49 2024] GET / => generated 382 bytes in 24 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 10648|app: 0|req: 2/4] 192.168.131.128 () {42 vars in 691 bytes} [Sat Mar 30 13:10:50 2024] GET / => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 10646|app: 0|req: 1/5] 192.168.131.128 () {42 vars in 691 bytes} [Sat Mar 30 13:10:50 2024] GET / => generated 382 bytes in 38 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 10648|app: 0|req: 3/6] 192.168.131.128 () {42 vars in 691 bytes} [Sat Mar 30 13:10:51 2024] GET / => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 10646|app: 0|req: 2/7] 192.168.131.1 () {42 vars in 808 bytes} [Sat Mar 30 13:11:09 2024] GET / => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 10648|app: 0|req: 4/8] 192.168.131.1 () {42 vars in 768 bytes} [Sat Mar 30 13:11:09 2024] GET /favicon.ico => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 10650|app: 0|req: 3/9] 192.168.131.1 () {44 vars in 839 bytes} [Sat Mar 30 13:12:17 2024] GET / => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 10646|app: 0|req: 3/10] 192.168.131.1 () {42 vars in 768 bytes} [Sat Mar 30 13:12:17 2024] GET /favicon.ico => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 10648|app: 0|req: 5/11] 192.168.131.1 () {44 vars in 839 bytes} [Sat Mar 30 13:12:18 2024] GET / => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 10650|app: 0|req: 4/12] 192.168.131.1 () {42 vars in 768 bytes} [Sat Mar 30 13:12:18 2024] GET /favicon.ico => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 10650|app: 0|req: 5/13] 192.168.131.1 () {44 vars in 839 bytes} [Sat Mar 30 13:12:48 2024] GET / => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 10646|app: 0|req: 4/14] 192.168.131.1 () {42 vars in 768 bytes} [Sat Mar 30 13:12:48 2024] GET /favicon.ico => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 10652|app: 0|req: 1/15] 192.168.131.1 () {44 vars in 839 bytes} [Sat Mar 30 13:12:49 2024] GET / => generated 382 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 10652|app: 0|req: 2/16] 192.168.131.1 () {42 vars in 768 bytes} [Sat Mar 30 13:12:49 2024] GET /favicon.ico => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)
+[pid: 10652|app: 0|req: 3/17] 192.168.131.1 () {44 vars in 839 bytes} [Sat Mar 30 13:12:49 2024] GET / => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 10652|app: 0|req: 4/18] 192.168.131.1 () {42 vars in 768 bytes} [Sat Mar 30 13:12:49 2024] GET /favicon.ico => generated 382 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 1)

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+在views中的标签在模板中会自动转义
+{{t1}}
+{{t1|escape}}
+{{t1|safe }}
+
+{%autoescape off%}
+{{t1}}
+<hr>
+{%endautoescape%}
+
+<hr>
+字面值：
+{{t2|default:'<h1>234</h1>'}}
+
+手动转义：{{t2|default:'&lt;h1&gt;234&lt;/h1&gt;'}}t2如果存在，就不输出default后面的值，如果不存在，就输出
+
+<!--|safe在view中写html语言，在html中转义, 过滤器safe：禁用转义，告诉模板这个变量是安全的，可以解释执行。
+
+模板对上下文传递的字符串进行输出时，会对以下字符自动转义
+小于号< 转换为 &lt;
+大于号> 转换为 &gt;
+单引号' 转换为 &#39;
+双引号" 转换为 &quot;
+与符号& 转换为 &amp;
+标签autoescape关闭转义：
+
+过滤器escape可以实现对变量的html转义，默认模板就会转义，一般省略。
+{{t1|escape}}
+-->
+
+</body>
+</html>

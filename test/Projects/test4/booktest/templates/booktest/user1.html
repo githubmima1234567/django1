@@ -1,0 +1,15 @@
+{% extends 'booktest/base_user.html' %}
+
+
+{%block content4 %}
+
+        <h1>用户中心1</h1>
+
+        {% block content5 %}
+                <h2>ddd</h2>
+                <script>
+                        alert('123')
+                </script>
+        {% endblock content5 %}
+
+{% endblock content4 %}
